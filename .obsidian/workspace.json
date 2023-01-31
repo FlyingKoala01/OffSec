@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f5fede5a5c1585e4",
@@ -181,7 +182,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40a9c8e4a4866a2e",
+  "active": "9ddc2df3ab61e895",
   "lastOpenFiles": [
     "NETWORKING/PROTOCOLS/Requests.md",
     "METHODOLOGY.md",
