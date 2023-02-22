@@ -4,57 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e8dd97789719b112",
+        "id": "b5f3c6af81579ef5",
         "type": "tabs",
         "children": [
           {
-            "id": "07e38304793522c8",
+            "id": "9ec426a5d5896140",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WEBSEC/ENCODINGS/Basic Enconding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b572e078e7a527a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
-          },
-          {
-            "id": "cb450ed9b17ce4b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKING/PROTOCOLS/Requests.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ddc2df3ab61e895",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKING/PORTS/FTP - 21.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f5fede5a5c1585e4",
@@ -121,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/PORTS/FTP - 21.md",
+                "file": "WEBSEC/FLI/LFI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/PORTS/FTP - 21.md",
+                "file": "WEBSEC/FLI/LFI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/PORTS/FTP - 21.md"
+                "file": "WEBSEC/FLI/LFI.md"
               }
             }
           }
@@ -182,17 +142,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ddc2df3ab61e895",
+  "active": "40a9c8e4a4866a2e",
   "lastOpenFiles": [
-    "NETWORKING/PROTOCOLS/Requests.md",
-    "METHODOLOGY.md",
-    "WEBSEC/ENCODINGS/Basic Enconding.md",
-    "WEBSEC/SQL/TRAINING.md",
+    "TOOLS/Nikto.md",
     "WEBSEC/SQL/BASIC SQLi.md",
+    "WEBSEC/SQL/TRAINING.md",
     "WEBSEC/SQL/PAYLOADS.md",
-    "Pasted image 20221216203611.png",
-    "Pasted image 20221216203616.png",
-    "BOOKS/Bug Bounty Bootcamp.pdf",
-    "BOOKS/Black-Hat-Go.pdf"
+    "METHODOLOGY.md",
+    "TOOLS/WPScan.md",
+    "TOOLS/AMASS.md",
+    "TOOLS/Shodan.md",
+    "NETWORKING/PORTS/ZoneTransfer - 53.md",
+    "NETWORKING/PORTS/FTP - 21.md"
   ]
 }
