@@ -1,11 +1,23 @@
 ## Port scanning
 	For TCP -> 
 ```
-sudo nmap -vvv -sS -A -Pn -n --min-rate 5000 -p- -oN machine_ports.txt machine_ip 
+sudo nmap -vvv -sS -sV -A -Pn -n --min-rate 5000 --disable-arp-ping -p- -oN machine_ports.txt machine_ip 
+```
+
+```
+sudo nmap -vvv -sCV -A -Pn -n --min-rate 5000 --disable-arp-ping -p machine_ip 
+```
+
+To avoid firewalls
+
+```
+sudo nmap -v -sA -Pn -n -p- --disable-arp-ping -D RND:5
+```
+
 ```
 	For UDP ->
 ```
-sudo nmap -v -sU -T5 -oN machine_ports_udp.txt machine_ip 
+sudo nmap -v -sU -T5 -Pn -n --disable-arp-ping -oN machine_ports_udp.txt machine_ip 
 ```
 
 ## Service Enumeration
